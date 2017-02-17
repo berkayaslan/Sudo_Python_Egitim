@@ -1,0 +1,238 @@
+---SAYI-1---
+
+Giriş: *
+    -Nasıl Python Öğreneceğiz
+    -Bu kaynaktan en verimli şekilde yararlanma
+    
+    
+Programlama: *
+    -Programlama nedir?
+        -Nasıl Programlama Yapılır?
+        -Programlama dili nedir?
+        -Çok bilinen programlama dilleri
+            -C/C++
+            -Java
+            -Python
+            -C#/Mono
+            -Ruby
+            -Pascal
+            -Assembly
+        -Makine dili nedir?
+        
+    -Python
+        -Neden Python?
+        -Python nasıl bir programlama dilidir?
+        -Başka hangi kaynaklardan faydalanabilirim?
+        -Bilinen python programları
+        Python:
+-Python'a Giriş:
+    -Gözden Geçirme *
+    -Python2 ve Python3 farkları *
+    -Kurulum *
+    -Uçbirim ve etkileşimli kabuk *
+        -Ipython3/2 *
+    -Python ile programlama mantığı *
+        -Girintiler*
+        -Yorum satırları*
+        -Nesne(Değişken) tanımları *
+    -Programlama yaparken karşılaşılaşabileceğimiz hatalar *
+    -Adettendir... 'Merhaba Dünya'(Hello World) *
+        -Print(Yazdır) Fonksiyonu *
+             -"Nesneden print'e, Python çağırıyor"* 
+             -Print parametreleri * 
+    -Input(Giriş) Fonksiyonu
+        -"Inputtan nesneye, beni Python gönderdi" *
+             -"E beni de input gönderdi" *
+    -Hesap Makinesi Python!
+        -Yazıların toplama ve çarpma özelliği
+        
+        
+---Sayı - 2 ---
+       
+-Python:
+
+    -Şart İfadeleri
+        -if Deyimi
+        -else Deyimi
+        -elif Deyimi
+	-Şart İfadelerinde İşelçler
+        
+    -Uçbirimdekiler Uçar IDE'dekiler Kalır
+        -IDE Anlatımları #IDE'ler detaylı anlatılmayacak. Buradaki IDElerin 3-4 paragraflık bilgileri Ekran görüntüleri ve Python'a uyarlanmaları#
+            -IDLE
+            -Ninja IDE
+            -Geany
+            -Vim
+            -Eclipse
+            -PyCharm
+        -Yazılanların Kaydedilmesi ve Çalıştırılması
+            -Uçbirim İle
+            -Çift Tıklama ile
+            -IDE'miz sayesinde
+            
+    -Programlamaya Devam
+        -Len() fonksiyonu
+        -Python İşleçleri
+        -Tip Dönüşümleri
+            -int()
+            -str()
+            -float()
+        -Var mıydı yok muydu? (Bool)
+        
+        
+Sorular:
+    -Sorular
+
+---Sayı - 3 ---
+
+Python:
+    -Listeler (Kısa Anlatım)
+        -Liste Nedir?
+        -Nasıl Tanımlanır?
+        -Listeden Eleman Alma
+    -Döngüler
+        -Döngü nedir?
+        -While Döngüsü
+            -Biri bunu durdursun!
+        -For Döngüsü
+        -Döngülere Özel Deyimler
+        -Kendinizi Matrixte Gibi Hissedin
+
+        
+        
+Sorular:
+    -Sorular
+
+
+
+---Sayı - 4 ---
+
+Python:
+    -Fonksiyonlar
+        -Biraz Matematik
+        -Hangi Fonksiyonları Biliyoruz?
+        -Parametre ve Nitelik
+        -Fonksiyon Tanımlama
+            -Fonksiyona Parametre Tanımlama
+        -Fonksiyon İçindeki Değerler
+            -Global deyimi
+        -Return deyimi
+    -Yeni VeriTipleri
+        -Listeler (Geniş Anlatım)
+            -Liste Nedir?
+            -Liste Tanımlama
+            -Listeye Veri Ekleme
+            -Listeden Veri Alma
+            -Listelerin Nitelikleri
+        -Demetler
+            -Demet Nedir?
+            -Demet Tanımlama
+            -Demetten Veri Alma
+            -Demetlerin Nitelikleri
+        -Kümeler
+    -Modüller
+        -Modül Nedir?
+        -Modül Çağırmak?
+            -Kontrollü Çağırma
+        -Modüllü Programlamanın Avantajları
+        
+Sorular:
+    -Sorular
+
+
+--- Sayı - 5 ---
+
+Python:
+    -Modüller
+        -Hazır Modüller
+            -Random Modülü
+            -Os Modülü
+            -Plaform Modülü
+            -Sys modülü                 #Hazır Modüller Kısmı Bayağı Uzun Bir Yazı olacak Gibi#
+            -Time Modülü
+            -Threading Modülü
+            -Urllib Modülü
+            -DateTime Modülü
+            -Getpass Modülü
+    -Sözlükler
+        -Sözlük Nedir?
+        -Sözlük Tanımlamak
+        -Sözlüğe Eleman Ekleme
+        -Sözlükten Eleman Alma
+        
+Sorular:
+    -Sorular
+
+
+    
+---Sayı - 6---
+
+
+Python:
+    -String VeriTipi ve Nitelikleri
+    -Programda Hataları Önceden Belirlemek
+        -Try
+        -except
+            -finally
+            -...
+        -Raise
+    -Dosya İşlemleri
+        -İkili Dosya
+        -Dosya Açma
+        -Dosyada Değişiklik Yapma
+        -Dosya Kapatma
+    -Nesne Tabanlı Programlama
+        -Nesne Tabanlı Programlama Nedir?
+        -Neden Nesne Tabanlı Programlama?
+        -Sınıf Tanımlama
+        -Sınıfın Öğeleri
+        -Modüller ve Nesne Tabanlı Programlama
+        -İşleçler(Tekrar)
+        -Nesne Tabanlı Programlamada Anlamlı Fonksiyonlar
+            -__init__()
+            -__repr__()
+            -__add__()
+            -__gt__()
+            -__eq__()
+            -__del__()
+            -__str__()
+            -__div__()
+            -...
+        -Self(Kendi)
+        -Örnekleme
+        
+Sorular:
+    -Sorular
+    
+    
+    
+--- Sayı-7 ---
+
+Python:
+    -Nesne Tabanlı Programlama
+        -Miras Alma
+        -Programlama Kabiliyeti
+    -GUI Programlama
+        -Bu kısım belkide 2-3 sayı sürecek. Çok Geniş bir alan.
+        -...
+        -...
+        -...
+        -...
+        -...
+        -Konu başlıklarını yazmamamın sebebi okuyucu buraya kadar geldiğinde
+        -Python hakkında oldukça şey biliyor olacak. Herhangi bir anlaşmazlık
+        -Ya da elde olmayan nedenler sonucunda sorun ile karşılaşırsak.
+        -Ya da bu konu beklediğimiz ilgiyi görmezse v.s burada bırakırız.
+        -...
+        -...
+        -...
+        -Aslında Bakarsanız Bu kısmı anlatmayı çok istiyorum. Hatta kafamda 
+        -birçok fikir var. Ancak bildiğiniz üzere GUI programlamanın bir çok
+        -seçeneği var, hele ki Python'dan bahsediyoruz, bu seçeneklerin hepsini
+        -Anlatmam gerçekten zor. Bunlardan birini seçmeliyiz. Ancak bu seçimi 
+        -Bu anlatımın içinde olduğu dergilerin 3-4. sayısı çıktıktan forumda bir
+        -Anket ile okuyuculara bırakmak daha doğru diye düşünüyorum.
+        -...
+        -...
+    -VeriTabanı
+        -Bu kısımda hemen hemen yukarıdaki gibi
