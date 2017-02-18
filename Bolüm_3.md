@@ -57,3 +57,73 @@ print(dagitimlar)
 del dagitimlar[2]
 print(dagitimlar)
 ```
+
+Programımızı kaydedip çıktığımızda aşağıdaki çıktıyı alırız:
+
+```
+Ubuntu
+Fedora
+Arch
+Mint
+Suse
+5
+['Ubuntu', 'Fedora', 'Arch', 'Suse', 'Mint']
+['Ubuntu', 'Fedora', 'Suse', 'Mint']
+```
+
+Beklediğimiz çıktı da budur. Burada belirtilmesi gerekenler elemanların bir sıraya göre dizildiği ve bu sıranın sıfırdan başladığı, listenin elemanlarına sıra numarasıyla erişebildiğimiz ve "del" anahtar sözcüğüyle listeden bir eleman silebildiğimizdir.
+
+Şimdi birkaç özelliğe daha değinerek devam edelim.
+
+## "in" Anahtar sözcüğü
+
+Bir elemanın listenin içinde olup olmadığını öğrenmenin bir yolu "in" anahtar sözcüğünü kullanmaktır.
+
+```Python
+liste = ["ahmet", 2, 12.3, "salim"]
+
+print("2" in liste)       #False
+print("ahmet" in liste)   #True
+print(2 in liste)         #True
+print("a" in liste)       #False
+```
+
+Programı çalıştırdığınızda ekrana yorum satırlarında gösterilen çıktılar verilecektir. Burada ilk örnekteki "2" nin string tipinde olduğunu unutmayın.
+
+Yani in işleci eğer eleman listede varsa True, yoksa false döndürür.
+
+## "append()" Fonksiyonu
+
+Belirttiğimiz listenin **sonuna** eleman eklememizi sağlar.
+
+```python
+liste = [1,2,3,4]
+liste.append(5)
+print(liste)
+```
+programımızın çıktısı;
+
+```
+[1,2,3,4,5]
+```
+
+şeklinde olacaktır.
+
+## Listenin Elemanlarını Değiştirmek
+
+Listenin elemanlarını tıpkı yeni bir değişken tanımlıyormuşçasına değiştirebiliriz.
+
+```python
+grup = ["Cengiz", "Nur", "Emir"]
+print("İlk hali: " + str(grup))
+grup[2] = "Selçuk"
+print("Son hali: " + str(grup))
+```
+
+Listeler ile karakter dizileri ya da sayılar "+" operatörü ile birlikte doğrudan kullanılamaz. Bu yüzden listemizi beraber kullanabilmek için karakter dizisi tipine dönüştürdük. (str()).
+
+Programımızda oluşan ilk çıktı daha önceden oluşturduğumuz listenin aynısıyken ikinci çıktının son elemanı "Selçuk" olarak değişti.
+
+Devam edebilmemiz için listelere ufak bir giriş yaptık. Şimdi göreceğimiz _döngüler_ konusunda bu öğrendiklerimizi pekiştireceğiz ve teknolojinin sınırlarını birazcık zorlayacağız :)
+
+# Döngüler  
